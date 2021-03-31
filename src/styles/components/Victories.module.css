@@ -1,0 +1,16 @@
+.victories {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--white);
+}
+
+.victories strong {
+  font-size: 2rem;
+}
+
+.victories p {
+  font-size: 2rem;
+  font-weight: 600;
+}

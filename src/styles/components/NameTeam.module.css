@@ -1,0 +1,6 @@
+.titulo {
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+  color: var(--white);
+}

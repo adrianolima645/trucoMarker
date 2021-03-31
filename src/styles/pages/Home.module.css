@@ -1,0 +1,46 @@
+.container {
+  max-width: 1024px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  background-color: var(--background);
+}
+
+.containerMarker {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.container section {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6.25rem;
+  align-content: center;
+}
+
+.btnTruco {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.victories {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.matchTime {
+  width: 100%;
+  height: auto;
+  background-color: var(--green_2);
+  color: var(--white);
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
